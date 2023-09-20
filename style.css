@@ -1,0 +1,14 @@
+#data_container a:hover{
+    background: var(--link-baground);
+}
+
+#data_container a:hover::before{
+    transform: rotate(360deg);
+}
+#data_container a::before{
+    border-radius: 2em;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    transition: all .3s ease-out;
+}
